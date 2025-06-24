@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+#logo{
+    color: red;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.nav-bar{
+    place-items: center;
+    margin-top: 10px;
+    background-color: blue;
+    
+}
+
+.nav-bar ul{
+    list-style: none;
+}
+
+.nav-bar ul a{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-bar ul a:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.nav-bar ul a:active{
+    background-color: lime;
+    color: #000;
+}
+
+.container{
+    margin: 10px 10px;
+}
+
+img{
+    width: 10em;
+    height: 10em;
+    border-radius: 10em;
+}
+
+#intro{
+    margin-left: 13px;
+}
+
+ #Hi-span{
+    color: yellow;
+}
+
+#C-span{
+    color: orange;
+}
+
+#read-me{
+   position: absolute;
+   top: 13em;
+   left: 15em;
+   text-align: center;
+   color: lime;
+ 
+}
+
+#welcome-msg{
+    margin: 10em 0px 0px 20em;
+}
+
+#overview{
+    position: absolute;
+    top: 25em;
+    left: 15em;
+    color: blue;
+}
+
+.skills-container{
+    position: absolute;
+    top: 60em;
+    left: 13em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: 10px;
+
+}
+
+.skills{
+    border: solid #fff;
+    width: 5em;
+    height: 5em;
+    text-align: center;
+    padding: 40px 0 0 0;
+    margin-right: 5em;
+    font-weight: 500;
+    
+}
+
+#icon{
+    position: absolute;
+    top: 80em;
+    left: 75em;
+    height: 30vh;
+}
+
+#hfm-icon{
+    position: relative;
+    right: 0.2em;
+    font-size: 40px;
+}
+
+#hfm{
+    color: lime;
+}
+
+#Tech{
+    color: red;
+    position: absolute;
+    right: 1px;
+}
+
+#made-with{
+    color: lime;
+    position: absolute;
+    top: 5.5em;
+    right: 0.2em;
+    
+}
+
+#special{
+    color: blue;
+    position: absolute;
+    right: 0.3em;
+    
+}
+
+@media screen and (max-width: 768px){
+
+ #read-me{
+  left: auto;
+  right: 4em;
+}
+
+ #welcome-msg{
+    position: absolute;
+    right: 13em; 
+}
+
+#overview{
+    top: 41em;
+   left: 3em;
+   
+}
+
+.skills-container{
+    left: auto;
+    right: 4.5em;
+    top: 90em;
+    flex-direction: column;
+}
+
+.skills{
+    padding: auto;
+    margin-top: 10px;
+}
+
+
+ #icon{
+    top: 130em;
+    left: 25em;
+ }
+
+};
